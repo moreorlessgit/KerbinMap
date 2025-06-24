@@ -1,0 +1,30 @@
+bookmarks = {
+    bookmark = {    # A bookmark with a few countries.
+        name = kerbin_at_war
+        desc = kerbin_at_war_desc
+        date = 1936.1.1.12
+        picture = GFX_select_date_1936
+        
+        default = yes
+        default_country = BHR
+        
+        KEP = {
+            history = KEP_SCENARIO1_DESC
+            ideology = neutrality
+        }
+        # PIN = {
+        #     history = QAT_SCENARIO2_DESC
+        #     ideology = democratic
+        #     minor = yes
+            
+        #     available = { NOT = { has_dlc = "Arms Against Tyranny" } }
+        # }
+        
+        "---" = {
+            history = OTHER_SCENARIO1_DESC
+        }
+        effect = {
+            randomize_weather = 12345
+        }
+    }
+}
