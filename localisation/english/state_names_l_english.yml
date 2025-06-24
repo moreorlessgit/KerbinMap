@@ -3,5 +3,7 @@
  STATE_2:1 "Lazio"
  STATE_3:1 "Swiss Plateau"
  STATE_4:1 "Lower Austria"
- AUS_STATE_4: "Niederösterreich" 
-
+ AUS_STATE_4:0 "Niederösterreich" 
+  STATE_125:0 "Paros Islands"
+  STATE_128:0 "North Neza"
+  STATE_135:0 "South Neza"
