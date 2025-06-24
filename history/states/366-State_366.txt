@@ -1,0 +1,10 @@
+state={
+	id=366
+	name="STATE_366"
+	provinces={
+		974 1030 2180 2486 2844 3296 3878 4092 4518 5000 5282 5340 6292 6976 6979 7038 7044 7053 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = large_town
+}

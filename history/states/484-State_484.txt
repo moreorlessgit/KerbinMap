@@ -1,0 +1,10 @@
+state={
+	id=484
+	name="STATE_484"
+	provinces={
+		602 682 932 1362 1602 1806 2016 2628 2742 2973 3074 3251 3391 3612 4003 4455 4513 4918 6353 7515 7536 7557 7582 7594 7636 7640 7664 7681 7692 7700 7715 7736 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = large_town
+}
