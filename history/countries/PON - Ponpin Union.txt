@@ -1,0 +1,47 @@
+# create_country = {
+#   tag=KEP
+#   ideology=neutrality
+#   capital=1      # a state ID that already exists
+#   # research, ideas and OOB can live here or be split out
+# }
+
+capital=108      # a state ID that already exists
+
+# oob = "generic_1936"
+
+# set_tech =
+
+# recruit_character = 
+
+# set_country_flag = 
+
+add_political_power = 200
+add_command_power = 100
+set_convoys = 150
+set_research_slots = 2
+set_stability    = 0.90     # 0–1
+set_war_support  = 0.75
+
+set_politics = {
+    ruling_party      = communism
+    last_election     = "1932.11.04"
+    election_frequency = 0           # months
+    elections_allowed  = no
+}
+
+set_popularities = {
+	democratic = 10
+	communism = 70
+    fascism = 10
+    neutrality = 10
+}
+
+
+# set_economic_law        = partial_economic_mobilisation
+# set_trade_law           = free_trade
+# set_conscription        = limited_conscription
+# set_mobilization_law    = volunteer_only
+# set_civilian_intel      = 20        # % intel
+# set_army_intel          = 15
+# set_navy_intel          = 10
+# set_air_intel           = 10

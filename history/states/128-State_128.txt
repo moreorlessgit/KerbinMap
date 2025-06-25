@@ -12,16 +12,16 @@ state={
 	history = {
         owner = KEP
         add_core_of = KEP
-        # buildings = {
-        #     infrastructure = 3
-        #     industrial_complex = 1
-        #     arms_factory = 1
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+            arms_factory = 1
         #     dockyard = 10
         #     7777 = { #province
         #         coastal_bunker = 5
         #         naval_base = 10
         #     }
-        # }
+        }
         # victory_points = { 5555 15 } #province then number of VPs
         # victory_points = { 6666 10 }
 	}

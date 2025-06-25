@@ -5,7 +5,7 @@
 #   # research, ideas and OOB can live here or be split out
 # }
 
-capital=1      # a state ID that already exists
+capital=128      # a state ID that already exists
 
 # oob = "generic_1936"
 
@@ -22,13 +22,6 @@ set_research_slots = 6
 set_stability    = 0.90     # 0–1
 set_war_support  = 0.75
 
-set_manpower     = 250000
-
-set_army_experience       = 30
-set_navy_experience       = 30
-set_air_experience        = 30
-set_command_power         = 200
-
 set_politics = {
     ruling_party      = neutrality
     last_election     = "1932.11.04"
@@ -44,11 +37,11 @@ set_popularities = {
 }
 
 
-set_economic_law        = partial_economic_mobilisation
-set_trade_law           = free_trade
-set_conscription        = limited_conscription
-set_mobilization_law    = volunteer_only
-set_civilian_intel      = 20        # % intel
-set_army_intel          = 15
-set_navy_intel          = 10
-set_air_intel           = 10
+# set_economic_law        = partial_economic_mobilisation
+# set_trade_law           = free_trade
+# set_conscription        = limited_conscription
+# set_mobilization_law    = volunteer_only
+# set_civilian_intel      = 20        # % intel
+# set_army_intel          = 15
+# set_navy_intel          = 10
+# set_air_intel           = 10
