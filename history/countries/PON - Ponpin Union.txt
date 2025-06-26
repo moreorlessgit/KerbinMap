@@ -7,7 +7,7 @@
 
 capital=108      # a state ID that already exists
 
-# oob = "generic_1936"
+oob = "PON"
 
 # set_tech =
 
@@ -31,8 +31,8 @@ set_politics = {
 
 set_popularities = {
 	democratic = 10
-	communism = 70
-    fascism = 10
+	communism = 10
+    fascism = 70
     neutrality = 10
 }
 

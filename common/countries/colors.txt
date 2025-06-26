@@ -6,3 +6,7 @@ KEP = {
 	color = rgb { 48  83  128 }
 	color_ui = rgb { 48  83  128 }
 }
+PON = {
+	color = rgb { 154 135 101 }
+	color_ui = rgb { 154 135 101 }
+}

@@ -1,6 +1,10 @@
 ﻿l_english:
- STRATEGICREGION_1:0 "TEST"
+  STRATEGICREGION_1:0 "TEST"
   STRATEGICREGION_2:0 "Neza"
   STRATEGICREGION_3:0 "Ponpin Isthmus"
   STRATEGICREGION_4:0 "Neza Gulf"
   STRATEGICREGION_5:0 "Southern Ponpin"
+  STRATEGICREGION_6:0 "South Ponpin Sea"
+  STRATEGICREGION_7:0 "North Ponpin Sea"
+  STRATEGICREGION_8:0 "Northern Ponpin"
+  STRATEGICREGION_9:0 "Central Ponpin"

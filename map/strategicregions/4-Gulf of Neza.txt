@@ -4,6 +4,7 @@ strategic_region={
 	provinces={
 		9634 9636 9637 9844 9956 9998 10028 10540 10546 10749 10807 10831 11036 11090 11228 
 	}
+	naval_terrain=water_shallow_sea
 	weather={
 	}
 }
