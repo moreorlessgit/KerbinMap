@@ -9,9 +9,12 @@ state={
 	}
 	history = {
 		owner = KEP
+		add_core_of = KEP
 		buildings = {
 			infrastructure = 0
-			2234 = {air_base = 1
+			air_base = 1
+			177 = {
+				naval_base = 1
 			}
 		}
 	}
