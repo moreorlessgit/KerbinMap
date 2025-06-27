@@ -7,7 +7,7 @@
 
 capital=128      # a state ID that already exists
 
-# oob = "generic_1936"
+oob = "KEP"
 
 # set_tech =
 

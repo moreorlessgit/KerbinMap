@@ -12,3 +12,61 @@
 # You can specify the same name in several regions, though I would suggest not doing this too often, for performance reasons.
 # After this, a first and second will be randomly picked from the default pool
 # The prefix must be provided for all pools
+
+KEP = {
+	male = {
+		names = {
+			Aidan Albert Alexander Andrew Anthony Benjamin Brendan Brian Bryce Callum Charles Christopher Ciaran
+			Conor Daniel David Declan Desmond Dermot Edward Eamon Elias Elihu Eoghan Fergus Finn Finnegan Francis
+			George Gideon Henry Hugh Isaac Jacob James John Jonathan Joseph Josiah Kieran Levi Lewis Liam
+			Malachy Mahlon Martin Matthew Michael Niall Nicholas Owen Patrick Peter Reuben Richard Robert Ronan Rory
+			Samuel Sean Seamus Shane Simon Stephen Thomas Tiernan Timothy Turlough Walter William Zachariah
+		}
+	}
+	female = {
+		names = {
+			Abigail Anna Betsy Catherine Deborah Elizabeth Emily Esther Frances Hannah Harriet Jane Julia Lydia 
+			Margaret Maria Martha Mary Nancy Rebecca Sarah Susan Sybil
+		}
+	}
+	surnames = {
+		Allen Allison Andrews Armstrong Ashbridge Askey Baird Baldwin Bartram Barton Bayard Beatty Bell 
+		Biddle Black Blaine Boal Brackenridge Buchanan Burd Butler Cadwalader Cameron Carroll Cassatt Chambers 
+		Chase Claypoole Clymer Cochran Cooper Cox Curtin Dallas Darlington Denny Dickson Dorrance DuBois Emlen 
+		Findlay Fisher Forney Fox Franklin Fry Gibbons Gibson Girard Greenawalt Gregg Haldeman Hamilton Hanna 
+		Harris Hart Hays Hazlett Heston Hiester Hill Houston Irwin Jay Jenkins Johnson Jones Kane Kelly King 
+		Knox Lane Lawrence Lea Leiper Lewis Lincoln Logan McAllister McClellan McKean Meade Meredith Mifflin 
+		Morris Muhlenberg Murray Penn Pettit Porter Potter Powel Quay Randall Reed Rittenhouse Roberts Rodgers 
+		Ross Rush Sanderson Sayre Sellers Sergeant Seward Sharpless Shippen Shoemaker Snyder Sproul Stevens 
+		Stokely Stotesbury Strong Sullivan Swan Swarthmore Taylor Thayer Tilghman Vaux Vickroy Wainwright 
+		Wallace Wetherill Wharton White Wilkins Willing Wilson Wistar Witte Woodward Wright Wynkoop
+	}
+	Callsigns = {
+		"Steeljack" "Outrider" "Ironclad" "Rustjaw" "Liberty" "Gravedigger" "Redtail" "Wolfpack"
+  		"Slagpile" "Tombstone" "Foxhole" "Hardpoint" "Dustoff" "Deadfall" "Highball" "Blackout"
+  		"Skyjack" "Forge" "Ridgeback" "Boomer" "Ghost" "Raven" "Thunder" "Bellows"
+  		"Canyon" "Stormer" "Blazer" "Slate" "Quaker" "Hawk" "Banshee" "Drake" "Stingray"
+  		"Torch" "Blitz" "Breaker" "Vandal" "Outlaw" "Crater" "Ember" "Comet"
+  		"Falcon" "Gunner" "Pike" "Coyote" "Jaguar" "Hunter" "Reaper" "Viper"
+		"Striker" "Dagger" "Phantom" "Shark" "Buzzard" "Raptor" "Cougar" "Grit"
+  		"Anvil" "Talon" "Howler" "Saber" "Crimson" "Havoc" "Ranger" "Pyro"
+	}
+
+	prefix = o_operation
+
+	first = {
+		o_iron o_steadfast o_valiant o_silent o_furious o_sacred o_loyal o_fierce
+		o_gallant o_cunning o_true o_noble o_daring o_vigilant o_hidden o_rapid
+		o_storming o_rugged o_undaunted o_brave o_shadowed o_just o_staunch o_keen
+		o_mighty o_stern o_grim o_reckless o_stalwart o_fleet o_honest o_wicked
+		o_fearless o_unbroken o_glorious o_intrepid o_ghostly o_ironclad o_sure o_swift
+	  }
+	  
+	  second = {
+		o_saber o_falcon o_guard o_blade o_pike o_dagger o_tempest o_freedom
+		o_lancer o_sentinel o_patriot o_strike o_javelin o_comet o_torrent o_phoenix
+		o_hammer o_vortex o_reaper o_bastion o_shield o_bullet o_glaive o_talon
+		o_howl o_wolf o_eagle o_raptor o_hawk o_lion o_tiger o_cobra
+		o_arrow o_scorcher o_barricade o_warden o_blizzard o_tornado o_fang o_hydra
+	  }
+}

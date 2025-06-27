@@ -1,12 +1,15 @@
 state={
 	id=128
 	name="STATE_128"
-	manpower=10000
-    state_category = large_town
+	manpower=360000
+    state_category = large_city
 	resources = {
-        oil = 10
-        chromium = 50
-		steel = 10
+        oil = 0
+        aluminium = 5
+        rubber =0
+        tungsten =5
+        steel =20
+        chromium =5
     }
 	
 	history = {
@@ -14,16 +17,20 @@ state={
         add_core_of = KEP
         buildings = {
             infrastructure = 3
-            industrial_complex = 1
-            arms_factory = 1
-        #     dockyard = 10
-        #     7777 = { #province
-        #         coastal_bunker = 5
-        #         naval_base = 10
-        #     }
+            arms_factory = 3
+            industrial_complex = 5
+            air_base = 1
+            dockyard = 2
+            anti_air_building = 0
+            radar_station = 0
+
+            9248 = { #province
+                coastal_bunker = 2
+                naval_base = 4
+            }
         }
-        # victory_points = { 5555 15 } #province then number of VPs
-        # victory_points = { 6666 10 }
+        victory_points = { 9269 30 } #KEP CAPITAL
+        victory_points = { 9248 5 } #Major Port City (Neza Gulf)
 	}
 	
 	

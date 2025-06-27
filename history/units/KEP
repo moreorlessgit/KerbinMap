@@ -32,62 +32,62 @@ division_template = {
 
 units = {
 	division = {
-		location = 5515
+		location = 125
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 3750
+		location = 9305
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 2257
+		location = 4704
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 2258
+		location = 2871
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 2258
+		location = 9354
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 8901
+		location = 1264
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 6038
+		location = 6285
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 9006
+		location = 9292
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 8884
+		location = 4351
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 8881
+		location = 3469
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 8866
+		location = 779
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
 	}
 	division = {
-		location = 4736
+		location = 9234
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
 	}

@@ -12,3 +12,47 @@
 # You can specify the same name in several regions, though I would suggest not doing this too often, for performance reasons.
 # After this, a first and second will be randomly picked from the default pool
 # The prefix must be provided for all pools
+
+PON = {
+	male = {
+		names = {
+			Tarak Korran Jundal Verek Brom Drosk Halden Orrek Sarn Thorek Varnak Rhogar Draven Kulgar Fenrik
+			Balor Grond Tavrek Mogran Edran Skarn Yorran Garruk Uthrik Varric Durn
+			Kaelen Sorrek Malgor Brydan Corthan Venrik Olaro Haskel Dovren Joral Krennak Falrik Ulric Zorren
+			Calros Brennar Yarik Solren Quoro Fenros Dornik Alren Sylgar Vasrik Tovren
+			Marrek Donrik Volgar Zhakran Eldrin Korvos Yuron Branric Navren Garron Dolrek Vorik
+		}
+	}
+	female = {
+		names = {
+			Shara Veyla Korin Drona Lysra Nira Vala Thira Sanna Brynna Elska Jorra Talyra Vess Mara Dura
+			Kelna Sira Ysolde Branna Velka Dornha Myra Solen Loryn Enna Tavira Syla Rena Olyra
+		}
+	}
+	surnames = {
+		Stonefist Ironfang Wolfblood Blackbranch Redthorn Skyhunter Frostmane Emberclaw Steelhide
+		Stormborn Ashwalker Dawnseeker Nightstalker Firebrand Bloodroot Earthshaker Windstrider
+		Bonebreaker Thunderhoof Wavecarver Saltfang Seaborn Tidebreaker Cliffwatcher Stormsailor
+		Sandwalker Coralguard Driftward Shorestalker Deepfinder Reefstrider Tidewalker Windhowler
+		Seacliff Stormrider Islesworn
+	}
+	Callsigns = {
+		"Stoneclaw" "Frostbite" "Stormfang" "Redmane" "Ashwind" "Darkeye" "Wolfcall" "Ironjaw"
+		"Flint" "Blazefang" "Shade" "Dagger" "Thorn" "Vulture" "Grimjaw" "Cinder"
+		"Breaker" "Torrent" "Squall" "Reef" "Anchor" "Cutlass" "Corsair" "Marlin"
+	}
+
+	prefix = o_operation
+
+	first = {
+		o_burning o_fierce o_hidden o_ghost o_raging o_iron o_shadow o_blooded o_broken
+		o_great o_fallen o_bright o_noble o_cunning o_savage o_silent o_stalwart o_ancient
+		o_salted o_tidal o_cresting o_drifting o_whispering o_reefed o_shorebound o_windborn
+	}
+
+	second = {
+		o_wolf o_eagle o_fang o_blade o_spear o_storm o_claw o_talon o_hammer
+		o_wind o_fire o_shield o_mountain o_raptor o_bear o_serpent o_warden o_howl
+		o_gull o_reef o_anchor o_mast o_tide o_marlin o_squall o_wave
+	}
+}
