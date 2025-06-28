@@ -1,32 +1,45 @@
 state={
 	id=143
 	name="STATE_143"
+	manpower=260000
+    state_category = large_city
+    local_supplies = 15
 	resources = {
         oil = 10
-        chromium = 50
-		steel = 10
+        aluminium = 0
+        rubber = 0
+        tungsten = 0
+        steel = 0
+        chromium = 5
     }
 	
 	history = {
         owner = KEP
         add_core_of = KEP
+        add_claim_by = PON
         buildings = {
             infrastructure = 3
-        #     industrial_complex = 1
-        #     arms_factory = 1
-        #     dockyard = 10
-        #     7777 = { #province
-        #         coastal_bunker = 5
-        #         naval_base = 10
-        #     }
+            arms_factory = 0
+            industrial_complex = 3
+            air_base = 1
+            dockyard = 3
+            anti_air_building = 0
+            radar_station = 0
+
+            9353 = { #province
+                coastal_bunker = 1
+                naval_base = 2
+            }
+            
         }
-        # victory_points = { 5555 15 } #province then number of VPs
-        # victory_points = { 6666 10 }
+        victory_points = { 9353 15 } #Western Port State Capital
+        
 	}
+
 	provinces={
 		779 4044 9353 9358 
 	}
-	buildings_max_level_factor=1.000
-        manpower=20000
-        state_category = large_town
+	# buildings_max_level_factor=1.000
+        # manpower=20000
+        # state_category = large_town
 }

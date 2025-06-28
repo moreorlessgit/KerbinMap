@@ -1,30 +1,35 @@
 state={
 	id=129
 	name="STATE_129"
-	manpower=10000
-    state_category = large_town
+	manpower=86000
+    state_category = town
 	resources = {
-        oil = 10
-        chromium = 50
-		steel = 10
+        oil = 0
+        aluminium = 5
+        rubber =0
+        tungsten =0
+        steel =10
+        chromium =0
     }
 	
 	history = {
         owner = KEP
         add_core_of = KEP
-        # buildings = {
-        #     infrastructure = 3
-        #     industrial_complex = 1
-        #     arms_factory = 1
-        #     dockyard = 10
-        #     7777 = { #province
-        #         coastal_bunker = 5
-        #         naval_base = 10
-        #     }
-        # }
-        # victory_points = { 5555 15 } #province then number of VPs
-        # victory_points = { 6666 10 }
+        buildings = {
+            infrastructure = 2
+            arms_factory = 1
+            industrial_complex = 2
+            air_base = 1
+            dockyard = 1
+            anti_air_building = 0
+            radar_station = 0
+
+           
+        }
+        victory_points = { 6285 15 } #State Capital Larueton
+        
 	}
+
 	provinces={
 		405 5177 5989 6031 6285 9230 
 	}

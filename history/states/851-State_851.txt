@@ -1,29 +1,39 @@
 state={
 	id=851
 	name="STATE_851"
-	manpower=10000
-    state_category = large_town
+	manpower=560000
+    state_category = metropolis
+    local_supplies = 15
 	resources = {
         oil = 10
-        chromium = 50
-		steel = 10
+        aluminium = 0
+        rubber =0
+        tungsten =10
+        steel =30
+        chromium =10
     }
 	
 	history = {
         owner = KEP
         add_core_of = KEP
-        # buildings = {
-        #     infrastructure = 3
-        #     industrial_complex = 1
-        #     arms_factory = 1
-        #     dockyard = 10
-        #     7777 = { #province
-        #         coastal_bunker = 5
-        #         naval_base = 10
-        #     }
-        # }
-        # victory_points = { 5555 15 } #province then number of VPs
-        # victory_points = { 6666 10 }
+        buildings = {
+            infrastructure = 4
+            arms_factory = 2
+            industrial_complex = 5
+            air_base = 1
+            dockyard = 3
+            anti_air_building = 0
+            radar_station = 0
+
+            3550 = { #province
+                coastal_bunker = 1
+                naval_base = 3
+            }
+           
+        }
+        victory_points = { 3550 25 } #2nd most important city in keprica
+        victory_points = { 5632 10 }
+        victory_points = { 2714 5 }
 	}
 	provinces={
 		1261 2714 3243 3550 4351 4713 5002 5278 5564 5632 5950 6473 9234 9240 9279 9292 9308 9311 
