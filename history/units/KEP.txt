@@ -35,60 +35,84 @@ units = {
 		location = 125
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 	division = {
 		location = 9305
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 	division = {
 		location = 4704
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 	division = {
 		location = 2871
 		division_template = "Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 	division = {
 		location = 9354
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 	division = {
 		location = 1264
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 	division = {
 		location = 6285
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 	division = {
 		location = 9292
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 	division = {
 		location = 4351
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 	division = {
 		location = 3469
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 	division = {
 		location = 779
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 	division = {
 		location = 9234
 		division_template = "Light Infantry Division"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
 	}
 }

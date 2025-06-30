@@ -1,9 +1,9 @@
 state={
 	id=851
 	name="STATE_851"
-	manpower=560000
+	manpower=920000
     state_category = metropolis
-    local_supplies = 15
+    local_supplies = 5
 	resources = {
         oil = 10
         aluminium = 0
@@ -21,7 +21,7 @@ state={
             arms_factory = 2
             industrial_complex = 5
             air_base = 1
-            dockyard = 3
+            dockyard = 2
             anti_air_building = 0
             radar_station = 0
 

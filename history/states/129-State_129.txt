@@ -1,8 +1,9 @@
 state={
 	id=129
 	name="STATE_129"
-	manpower=86000
+	manpower=183000
     state_category = town
+    local_supplies = 2
 	resources = {
         oil = 0
         aluminium = 5

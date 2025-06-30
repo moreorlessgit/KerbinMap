@@ -1,6 +1,14 @@
 state={
 	id=118
 	name="STATE_118"
+	
+	history = {
+		owner = PON
+    	add_core_of = PON
+		add_core_of = KEP
+	}
+
+
 	provinces={
 		615 784 1146 2482 3027 3059 3255 3393 4400 4800 5456 6206 6452 9074 9126 
 	}
