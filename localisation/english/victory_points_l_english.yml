@@ -3,9 +3,26 @@
  VICTORY_POINTS_6521:0 "Berlin"
  VICTORY_POINTS_692:0 "Munich"
 
- VICTORY_POINTS_3750:0 "Poncap"   
+ VICTORY_POINTS_3750:0 "Ponpincap"   
  VICTORY_POINTS_8984:0 "Eastbay"  
  VICTORY_POINTS_5515:0 "Westbay"  
 
- VICTORY_POINTS_9269:0 "Kepriopolis"
+ #Keprica
+
+ VICTORY_POINTS_9287:0 "Kepriopolis"
  VICTORY_POINTS_9248:0 "Coastland"
+ VICTORY_POINTS_6502:0 "Northernport"
+ VICTORY_POINTS_3218:0 "Northerntown"
+
+ VICTORY_POINTS_6285:0 "Larueton"
+
+ VICTORY_POINTS_3550:0 "Wrightsville"
+ VICTORY_POINTS_5632:0 "Lakefront"
+ VICTORY_POINTS_2714:0 "Gulfview"
+
+ VICTORY_POINTS_9353:0 "Gulfview Dos"
+
+ VICTORY_POINTS_429:0 "Nezitis"
+ VICTORY_POINTS_9372:0 "Norfolkish"
+ VICTORY_POINTS_5850:0 "Canalville"
+ VICTORY_POINTS_9305:0 "Plainsview"

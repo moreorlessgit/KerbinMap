@@ -9,7 +9,13 @@ capital=108      # a state ID that already exists
 
 oob = "PON"
 
-# set_tech =
+set_technology = {
+    infantry_weapons = 1
+    gw_artillery = 1
+    tech_trucks = 1
+    tech_support = 1
+    basic_train = 1
+}
 
 # recruit_character = 
 

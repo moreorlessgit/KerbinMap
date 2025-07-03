@@ -1,33 +1,54 @@
-# create_country = {
-#   tag=KEP
-#   ideology=neutrality
-#   capital=1      # a state ID that already exists
-#   # research, ideas and OOB can live here or be split out
-# }
+# Keprican Republic
 
 capital=128      # a state ID that already exists
+set_major = yes
 
-oob = "KEP"
+set_oob = "KEP"
 
-# set_tech =
+# set_naval_oob = ""
 
-# recruit_character = 
+# set_air_oob = ""
 
-# set_country_flag = 
-
+set_research_slots = 5
+set_stability    = 0.90
+set_war_support  = 0.75
 add_political_power = 200
 add_command_power = 100
 set_convoys = 150
-set_research_slots = 6
-set_stability    = 0.90     # 0–1
-set_war_support  = 0.75
+starting_train_buffer = 20
 
-set_politics = {
-    ruling_party      = neutrality
-    last_election     = "1932.11.04"
-    election_frequency = 48            # months
-    elections_allowed  = yes
+add_ideas = {
+
+    #national spirit
+    #design companies
+    
+    #LAWS
+    civilian_economy # or low_economic_mobilisation | partial_economic_mobilisation | war_economy | tot_economic_mobilisation
+    free_trade # or export_focus limited_exports closed_economy
+    volunteer_only # or limited_conscription disarmed_nation
 }
+
+set_technology = {
+    support_weapons = 1
+    infantry_weapons = 1
+    infantry_weapons1 = 1
+    marines = 1
+    gw_artillery = 1
+    interwar_artillery = 1
+    basic_machine_tools = 1
+    construction1 = 1
+    electronic_mechanical_engineering = 1
+    tech_trucks = 1
+    motorised_infantry = 1
+    tech_support = 1
+    basic_train = 1
+}
+
+#equipment/design variants
+
+# recruit_character = 
+
+#Diplomacy related effects, factions, gaurentees, access, etc etc
 
 set_popularities = {
 	democratic = 25
@@ -36,12 +57,9 @@ set_popularities = {
     neutrality = 25
 }
 
-
-# set_economic_law        = partial_economic_mobilisation
-# set_trade_law           = free_trade
-# set_conscription        = limited_conscription
-# set_mobilization_law    = volunteer_only
-# set_civilian_intel      = 20        # % intel
-# set_army_intel          = 15
-# set_navy_intel          = 10
-# set_air_intel           = 10
+set_politics = {
+    ruling_party      = neutrality
+    last_election     = "1934.11.04"
+    election_frequency = 48            # months
+    elections_allowed  = yes
+}

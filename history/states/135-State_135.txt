@@ -1,32 +1,48 @@
 state={
 	id=135
 	name="STATE_135"
+	manpower=2260000
+    state_category = megalopolis
+    local_supplies = 5
 	resources = {
-        oil = 10
-        chromium = 50
-		steel = 10
+        oil = 20
+        aluminium = 10
+        rubber = 10
+        tungsten = 0
+        steel = 0
+        chromium = 0
     }
 	
 	history = {
         owner = KEP
         add_core_of = KEP
-        # buildings = {
-        #     infrastructure = 3
-        #     industrial_complex = 1
-        #     arms_factory = 1
-        #     dockyard = 10
-        #     7777 = { #province
-        #         coastal_bunker = 5
-        #         naval_base = 10
+        add_claim_by = PON
+        buildings = {
+            infrastructure = 5
+            arms_factory = 2
+            industrial_complex = 6
+            air_base = 2
+            dockyard = 1
+            anti_air_building = 0
+            radar_station = 0
+
+            9372 = { #province
+                coastal_bunker = 3
+                naval_base = 6
+            }
+        #     5850 = { #province
+        #         naval_base = 1
         #     }
-        # }
-        # victory_points = { 5555 15 } #province then number of VPs
-        # victory_points = { 6666 10 }
+        }
+        victory_points = { 429 18 } #State Capital
+        victory_points = { 9372 12 } #Major Port City (On Ocean)
+        victory_points = { 5850 8 } #Minor Port City On Lake Neza
+        victory_points = { 9305 5 } #Northern City
 	}
 	provinces={
 		429 532 1079 1163 1470 2091 2871 3384 3469 3698 4132 5382 5850 6119 6358 6490 6540 9300 9304 9305 9321 9322 9326 9354 9361 9364 9372 9377 
 	}
-	buildings_max_level_factor=1.000
-        manpower=10000
-        state_category = large_town
+	# buildings_max_level_factor=1.000
+        # manpower=10000
+        # state_category = large_town
 }
