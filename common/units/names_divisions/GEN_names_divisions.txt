@@ -33,7 +33,7 @@
 GEN_INF_01 = {
 	name = "Infantry Division"
 
-	for_countries = { ENG }
+	for_countries = { KEP }
 
 	can_use = { always = yes }
 
