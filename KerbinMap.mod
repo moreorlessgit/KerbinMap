@@ -32,7 +32,7 @@ replace_path="common/raids"
 replace_path="common/military_industrial_organization"
 replace_path="gfx/interface/equipmentdesigner/graphic_db"
 
-# replace_path="common/on_actions"
+replace_path="common/on_actions"
 
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
@@ -45,6 +45,8 @@ replace_path="common/ai_templates"
 
 
 
-# replace_path="common/scripted_effects"
-# replace_path="common/scripted_localisation"
-# replace_path="common/scripted_triggers"
+replace_path="common/scripted_effects"
+replace_path="common/scripted_localisation"
+replace_path="common/scripted_triggers"
+
+replace_path="common/units/names_divisions"
