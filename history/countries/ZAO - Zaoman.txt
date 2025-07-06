@@ -1,0 +1,60 @@
+# Keprican Republic
+
+capital=157      # a state ID that already exists
+set_major = no
+
+# set_oob = "ZAO"
+
+# set_naval_oob = ""
+
+# set_air_oob = ""
+
+set_research_slots = 4
+set_stability    = 0.7
+set_war_support  = 0.6
+add_political_power = 200
+add_command_power = 100
+set_convoys = 100
+starting_train_buffer = 10
+
+add_ideas = {
+
+    #national spirit
+    #design companies
+    
+    #LAWS
+    civilian_economy # or low_economic_mobilisation | partial_economic_mobilisation | war_economy | tot_economic_mobilisation
+    limited_exports # or export_focus limited_exports closed_economy
+    limited_conscription # or limited_conscription disarmed_nation
+}
+
+set_technology = {
+    support_weapons = 1
+    infantry_weapons = 1
+    tech_support = 1
+    gw_artillery = 1
+    construction1 = 1
+    tech_trucks = 1
+    motorised_infantry = 1
+    basic_train = 1
+}
+
+#equipment/design variants
+
+# recruit_character = 
+
+#Diplomacy related effects, factions, gaurentees, access, etc etc
+
+set_popularities = {
+	democratic = 15
+	communism = 70
+    fascism = 10
+    neutrality = 5
+}
+
+set_politics = {
+    ruling_party      = communism
+    last_election     = "1934.11.04"
+    election_frequency = 48            # months
+    elections_allowed  = no
+}

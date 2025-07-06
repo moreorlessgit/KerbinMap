@@ -2,11 +2,33 @@ TST = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
 }
+
 KEP = {
 	color = rgb { 48  83  128 }
 	color_ui = rgb { 48  83  128 }
 }
+
 PON = {
 	color = rgb { 154 135 101 }
 	color_ui = rgb { 154 135 101 }
+}
+
+ZAO = {
+	color = rgb { 204 51 0  }
+	color_ui = rgb { 204 51 0  }
+}
+
+AUS = {
+	color = rgb { 163 189 215  }
+	color_ui = rgb { 163 189 215  }
+}
+
+STN = {
+	color = rgb { 128 0 0  }
+	color_ui = rgb { 128 0 0  }
+}
+
+ERP = {
+	color = rgb { 0 43 128  }
+	color_ui = rgb { 0 43 128  }
 }

@@ -1,6 +1,10 @@
 state={
 	id=875
 	name="STATE_875"
+
+	history = {
+		owner = ZAO
+	}
 	provinces={
 		77 1130 1340 1493 4318 4374 6071 9404 9416 9434 9470 9484 
 	}

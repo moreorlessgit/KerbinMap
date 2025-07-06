@@ -1,17 +1,31 @@
 state={
 	id=134
 	name="STATE_134"
-
+	resources = {
+	rubber = 6
+	chromium = 12
+	tungsten = 6
+}
 	history = {
 		owner = PON
     	add_core_of = PON
 		add_core_of = KEP
-		add_claim_by = KEP
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			715 = {naval_base=1}
+		}
+		victory_points = {
+			715 5
+		}
+		victory_points = {
+			4971 5
+		}
 	}
 	provinces={
 		715 2050 3010 3130 3462 4249 4350 4549 4971 5005 6544 9299 9320 9335 9346 9347 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = large_town
+        manpower=82622
+        state_category = rural
 }

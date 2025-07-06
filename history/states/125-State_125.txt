@@ -1,11 +1,46 @@
 state={
 	id=125
 	name="STATE_125"
+	state_category = town
+
+	resources = {
+		rubber = 6
+		oil = 18
+	}
+
+	history = {
+		owner = KEP
+		add_core_of = KEP
+		add_claim_by = PON
+		add_claim_by = ERP
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+			dockyard = 1
+
+			9636 = {
+				naval_base = 1
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+		victory_points = {
+			9636 2
+		}
+	}
 	provinces={
 		9634 9636 9637 
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=large_town
-	local_supplies=0.000
+	manpower=25000
+	local_supplies=1
 }

@@ -5,13 +5,13 @@ state={
 		177 2234 2818 5035
 	}
 	resources = {
-		oil = 25
+		oil = 36
 	}
 	history = {
 		owner = KEP
 		add_core_of = KEP
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 			air_base = 1
 			177 = {
 				naval_base = 1
@@ -19,7 +19,7 @@ state={
 		}
 	}
 	buildings_max_level_factor=1.000
-        manpower=1350
-        state_category = wasteland
+        manpower=11350
+        state_category = enclave
 		
 }

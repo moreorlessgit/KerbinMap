@@ -1,2 +1,22 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
--1;-1;;-1;-1;-1;-1;-1;-1
+11236;10651;sea;5564;-1;-1;-1;-1;NEZA_LAKE_EXIT;Neza Lake Exit
+10213;9844;sea;6358;-1;-1;-1;-1;NEZA_CANAL;Neza Canal
+9636;9634;sea;9956;-1;-1;-1;-1;;Paros Islands
+9636;9637;sea;9956;-1;-1;-1;-1;;Paros Islands
+243;9664;sea;9809;-1;-1;-1;-1;;Austeria
+243;9665;sea;9809;-1;-1;-1;-1;;Austeria
+9664;9665;sea;9809;-1;-1;-1;-1;;Austeria
+9664;9666;sea;10516;-1;-1;-1;-1;;Austeria
+1171;9662;sea;10786;-1;-1;-1;-1;;Austeria
+1171;9663;sea;10977;-1;-1;-1;-1;;Austeria
+1682;9661;sea;10577;-1;-1;-1;-1;;Austeria
+
+
+
+
+
+
+
+
+
+-1;-1;-1;-1;-1;-1;-1;-1;-1

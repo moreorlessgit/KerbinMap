@@ -1,1 +1,83 @@
-﻿From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+﻿adjacency_rule = {
+	name = "NEZA_CANAL"
+    
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 9326 6540 9321 6358 9304 2783 6217 5657 }
+
+	is_disabled = {
+		tooltip = neza_canal_disabled_tt
+	}
+	
+	icon = 9326
+	offset = { 0 0 0 }
+}
+
+adjacency_rule = {
+	name = "NEZA_LAKE_EXIT"
+    
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 5564 }
+
+	is_disabled = {
+		tooltip = neza_canal_disabled_tt
+	}
+	
+	icon = 5564
+	offset = { 0 0 0 }
+}

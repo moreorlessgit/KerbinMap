@@ -1,2 +1,6 @@
 KEP = "countries/KEP - Keprican Republic.txt"
-PON = "countries/KEP - Keprican Republic.txt"
+PON = "countries/PON - Ponpin Union.txt"
+ZAO = "countries/ZAO - Zaoman.txt"
+AUS = "countries/AUS - Austeria.txt"
+STN = "countries/STN - Steiner Union.txt"
+ERP = "countries/ERP - Eurp.txt"

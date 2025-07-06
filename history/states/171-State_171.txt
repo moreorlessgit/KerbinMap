@@ -1,6 +1,11 @@
 state={
 	id=171
 	name="STATE_171"
+
+	history = {
+		owner = AUS
+	}
+
 	provinces={
 		68 243 312 1171 1682 2886 3602 3929 9543 9549 
 	}

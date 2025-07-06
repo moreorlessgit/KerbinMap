@@ -26,3 +26,20 @@
  PON:0 "Ponpin Confederation"
  PON_DEF:0 "the Ponpin Confederation"
  PON_ADJ:0 "Ponpinese"
+
+ STN:0 "Steiner Union"
+ STN_DEF:0 "the Steiner Union"
+ STN_ADJ:0 "Steiner"
+
+ AUS:0 "Austeria"
+ AUS_DEF:0 "Austeria"
+ AUS_ADJ:0 "Austerian"
+
+ ERP:0 "Eurp"
+ ERP_DEF:0 "Eurp"
+ ERP_ADJ:0 "Eurpian"
+
+ ZAO:0 "Zaoman"
+ ZAO_DEF:0 "Zaoman"
+ ZAO_ADJ:0 "Zaomanese"
+ 
