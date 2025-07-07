@@ -6,12 +6,48 @@ state={
 		owner = PON
     	add_core_of = PON
 		add_core_of = KEP
+
+
+
+
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+			9232 = {naval_base=2}
+			4415 = {naval_base=3}
+		}
+
+
+
+
+
+
+
+
+
+
+
+		victory_points = {
+			2214 10
+		}
+		victory_points = {
+			4415 10
+		}
+		victory_points = {
+			5043 10
+		}
+		victory_points = {
+			9232 10
+		}
 	}
 
 	provinces={
 		53 283 392 966 1330 2141 2214 3232 3411 4415 4624 4652 5043 5872 6241 6491 9182 9190 9198 9199 9218 9232 9237 9249 9253 9262 9272 9284 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = large_town
+        manpower=348948
+        state_category = town
 }

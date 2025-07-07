@@ -3,7 +3,7 @@
 capital=85      # a state ID that already exists
 set_major = yes
 
-set_oob = "KEP"
+# set_oob = "KEP"
 
 # set_naval_oob = ""
 

@@ -6,12 +6,21 @@ state={
 		owner = KEP
     	add_core_of = PON
 		add_core_of = KEP
-		add_claim_by = PON
+		add_claim_by = ZAO
+		victory_points = {
+			9655 2
+		}
+		buildings = {
+			infrastructure = 1
+			9655 = {
+				naval_base = 1
+			}
+		}
 	}
 	provinces={
 		9655 
 	}
 	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = large_town
+        manpower=17412
+        state_category = small_island
 }

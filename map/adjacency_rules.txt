@@ -1,6 +1,6 @@
-﻿adjacency_rule = {
+adjacency_rule = {
 	name = "NEZA_CANAL"
-    
+
 	contested =
 	{
 		army = no
@@ -33,7 +33,7 @@
 	required_provinces = { 9326 6540 9321 6358 9304 2783 6217 5657 }
 
 	is_disabled = {
-		tooltip = neza_canal_disabled_tt
+		tooltip = canal_disabled_tt
 	}
 	
 	icon = 9326
@@ -42,7 +42,7 @@
 
 adjacency_rule = {
 	name = "NEZA_LAKE_EXIT"
-    
+
 	contested =
 	{
 		army = no
@@ -75,9 +75,135 @@ adjacency_rule = {
 	required_provinces = { 5564 }
 
 	is_disabled = {
-		tooltip = neza_canal_disabled_tt
+		tooltip = canal_disabled_tt
 	}
 	
 	icon = 5564
+	offset = { 0 0 0 }
+}
+
+adjacency_rule = {
+	name = "LOWER_PON_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 3486 9293 9309 }
+
+	is_disabled = {
+		tooltip = canal_disabled_tt
+	}
+	
+	icon = 9293
+	offset = { 0 0 0 }
+}
+
+adjacency_rule = {
+	name = "MID_PON_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 6038 9074 }
+
+	is_disabled = {
+		tooltip = canal_disabled_tt
+	}
+	
+	icon = 6038
+	offset = { 0 0 0 }
+}
+
+adjacency_rule = {
+	name = "UPPER_PON_CANAL"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 6252 4516 }
+
+	is_disabled = {
+		tooltip = canal_disabled_tt
+	}
+	
+	icon = 6252
 	offset = { 0 0 0 }
 }

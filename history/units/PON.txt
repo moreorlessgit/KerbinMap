@@ -1,94 +1,120 @@
-division_template = {
-	name = "Light Infantry Division"
+# division_template = {
+# 	name = "Light Infantry Division"
 
-	regiments = {
-		infantry = {x = 0 y = 0}
-		infantry = {x = 0 y = 1}
-		infantry = {x = 1 y = 0}
-		infantry = {x = 1 y = 1}
-	}
-	support = {
-		artillery = {x = 0 y = 0}
-	}
-}
+# 	regiments = {
+# 		infantry = {x = 0 y = 0}
+# 		infantry = {x = 0 y = 1}
+# 		infantry = {x = 1 y = 0}
+# 		infantry = {x = 1 y = 1}
+# 	}
+# 	support = {
+# 		artillery = {x = 0 y = 0}
+# 	}
+# }
 
-division_template = {
-	name = "Infantry Division"
+# division_template = {
+# 	name = "Infantry Division"
 
-	regiments = {
-		infantry = {x = 0 y = 0}
-		infantry = {x = 0 y = 1}
-		infantry = {x = 0 y = 2}
-		infantry = {x = 1 y = 0}
-		infantry = {x = 1 y = 1}
-		infantry = {x = 1 y = 2}
-		artillery_brigade = {x = 2 y = 0}
-		artillery_brigade = {x = 2 y = 1}
-	}
-	support = {
-		engineer = {x = 0 y = 0}
-	}
-}
+# 	regiments = {
+# 		infantry = {x = 0 y = 0}
+# 		infantry = {x = 0 y = 1}
+# 		infantry = {x = 0 y = 2}
+# 		infantry = {x = 1 y = 0}
+# 		infantry = {x = 1 y = 1}
+# 		infantry = {x = 1 y = 2}
+# 		artillery_brigade = {x = 2 y = 0}
+# 		artillery_brigade = {x = 2 y = 1}
+# 	}
+# 	support = {
+# 		engineer = {x = 0 y = 0}
+# 	}
+# }
 
-units = {
-	division = {
-		location = 5515
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-	}
-	division = {
-		location = 3750
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-	}
-	division = {
-		location = 2257
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-	}
-	division = {
-		location = 2258
-		division_template = "Infantry Division"
-		start_experience_factor = 0.1
-	}
-	division = {
-		location = 2258
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.1
-	}
-	division = {
-		location = 8901
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.1
-	}
-	division = {
-		location = 6038
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.1
-	}
-	division = {
-		location = 9006
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.1
-	}
-	division = {
-		location = 8884
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.1
-	}
-	division = {
-		location = 8881
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.1
-	}
-	division = {
-		location = 8866
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.1
-	}
-	division = {
-		location = 4736
-		division_template = "Light Infantry Division"
-		start_experience_factor = 0.1
-	}
-}
+# units = {
+# 	division = {
+# 		location = 5515
+# 		division_template = "Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+		
+# 	}
+# 	division = {
+# 		location = 3750
+# 		division_template = "Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+		
+# 	}
+# 	division = {
+# 		location = 2257
+# 		division_template = "Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+# 	}
+# 	division = {
+# 		location = 2258
+# 		division_template = "Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+# 	}
+# 	division = {
+# 		location = 2258
+# 		division_template = "Light Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+# 	}
+# 	division = {
+# 		location = 8901
+# 		division_template = "Light Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+# 	}
+# 	division = {
+# 		location = 6038
+# 		division_template = "Light Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+# 	}
+# 	division = {
+# 		location = 9006
+# 		division_template = "Light Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+# 	}
+# 	division = {
+# 		location = 8884
+# 		division_template = "Light Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+# 	}
+# 	division = {
+# 		location = 8881
+# 		division_template = "Light Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+# 	}
+# 	division = {
+# 		location = 8866
+# 		division_template = "Light Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+# 	}
+# 	division = {
+# 		location = 4736
+# 		division_template = "Light Infantry Division"
+# 		start_experience_factor = 0.1
+# 		start_equipment_factor = 1
+# 		start_manpower_factor = 1
+# 	}
+# }

@@ -12,12 +12,15 @@ bookmarks = {
             history = KEP_SCENARIO1_DESC
             ideology = neutrality
         }
+        STN = {
+            history = x
+            ideology = neutrality
+        }
         PON = {
             history = QAT_SCENARIO2_DESC
-            ideology = communism
+            ideology = fascism
             minor = yes
             
-            available = { NOT = { has_dlc = "Arms Against Tyranny" } }
         }
         
         "---" = {

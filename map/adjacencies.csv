@@ -10,9 +10,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1171;9662;sea;10786;-1;-1;-1;-1;;Austeria
 1171;9663;sea;10977;-1;-1;-1;-1;;Austeria
 1682;9661;sea;10577;-1;-1;-1;-1;;Austeria
-
-
-
+11228;10681;sea;9293;-1;-1;-1;-1;;LOWER_PON_CANAL
+10348;9926;sea;6038;-1;-1;-1;-1;;MID_PON_CANAL
+10928;10420;sea;4516;-1;-1;-1;-1;;UPPER_PON_CANAL
+8605;9617;sea;11190;-1;-1;-1;-1;;Ponpin
+243;9664;sea;9809;-1;-1;-1;-1;;Austeria
 
 
 

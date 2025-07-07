@@ -4,6 +4,7 @@ state={
 
 	history = {
 		owner = ZAO
+		add_core_of = ZAO
 		add_core_of = KEP
 	}
 	provinces={

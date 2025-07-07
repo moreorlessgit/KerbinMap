@@ -1,0 +1,7 @@
+﻿l_english:
+ NEZA_CANAL:0 "Neza Canal"
+ NEZA_LAKE_EXIT:0 "Neza Lake Canal"
+ LOWER_PON_CANAL:0 "Lower Ponpin Canal"
+ MID_PON_CANAL:0 "Mid-Ponpin Canal"
+ UPPER_PON_CANAL:0 "Upper Ponpin Canal"
+ canal_disabled_tt:0 "Canal is not open for you."

@@ -1,0 +1,49 @@
+USA_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+	
+	#link_numbering_with = { USA_DD_HISTORICAL }	
+
+	# prefix = "USS "							
+	fallback_name = "Destroyer Escort DE-%d"
+
+	# unique = {
+	# 	# From wiki, by class, starting with Evarts
+	# 	# Evarts
+	# 	"Evarts" "Wyffels" "Griswold" "Steele" "Carlson" "Bebas" "Crouter" "Brennan" "Doherty" "Austin" "Edgar G Chase" "Edward C. Daly" "Gilmore" "Burden R Hastings" "Le Hardy" "Harold C Thomas" "Wileman" 
+	# 	"Charles R Greer" "Whitman" "Wintle" "Dempsey" "Duffy" "Emery" "Stadtfeld" "Martin" "Sederstrom" "Fleming" "Tisdale" "Eisele" "Fair" "Manlove" "Greiner" "Wyman" "Lovering" "Sanders" "Brackett" "Reynolds" 
+	# 	"Mitchell" "Donaldson" "Andres" "Decker" "Dobler" "Doneff" "Engstrom" "Seid" "Smartt" "Walter S Brown" "William C Miller" "Cabana" "Dionne" "Canfield" "Deede" "Eldon" "Cloues" "Lake" "Lyman" "Crowley" "Rall" 
+	# 	"Halloran" "Connolly" "Finnegan" "O'Toole" "John J Powers" "Mason" "John M Bermingham" 
+	# 	# Buckley
+	# 	"Buckley" "Charles Lawrence" "Daniel T Griffin" "Donnell" "Fogg" "Foss" "Gantner" "	George W Ingram" "Ira Jeffery" "Lee Fox" "Amesbury" "Bates" "Blessman" "Joseph E Campbell" "Reuben James" "Sims" "Hopping" 
+	# 	"Reeves" "Fechteler" "Chase" "Laning" "Loy" "Barber" "Lovelace" "Manning" "Neuendorf" "James E Craig" "Eichenberger" "Thomason" "Jordan" "Newman" "Liddle" "Kephart" "Cofer" "Lloyd" "Otter" "Joseph C Hubbard" 
+	# 	"Hayter" "William T Powell" "Scott" "Burke" "Enright" "Coolbaugh" "Darby" "	J Douglas Blackwood" "Francis M Robinson" "Solar" "Fowler" "Spangenberg" "Ahrens" "Barr" "Alexander J Luke" "Robert I Paine" 
+	# 	"Foreman" "Whitehurst" "England" "Witter" "Bowers" "Willmarth" "Gendreau" "Fieberling" "William C Cole" "Paul G Baker" "Damon M Cummings" "Vammen" "Jenks" "Durik" "Wiseman" "Weber" "Schmitt" "Frament" "Harmon" 
+	# 	"Greenwood" "Loeser" "Gillette" "Underhill" "Henry R Kenyon" "Bull" "Bunch" "Rich" "Spangler" "George" "Raby" "Marsh" "Currier" "Osmus" "Earl V Johnson" "Holton" "Cronin" "Frybarger" "Tatum" "Borum" "Maloy" 
+	# 	"Haines" "Runels" "Hollis" "Gunason" "Major" "Weeden" "Varian" "Scroggins" "Jack W Wilke" 
+	# 	# Cannon
+	# 	"Cannon" "Christopher" "Alger" "Thomas" "Bostwick" "Breeman" "Burrows" "Carter" "Clarence L Evans" "Levy" "McConnell" "Osterhaus" "Parks" "Baron" "Acree" "Amick" "Atherton" "Booth" "Carroll" "Cooner" "Eldridge" 
+	# 	"Marts" "Pennewill" "Micka" "Reybold" "Herzog" "McAnn" "Trumpeter" "Straub" "Gustafson" "Samuel S Miles" "Wesson" "Riddle" "Swearer" "Stern" "O'Neill" "Bronstein" "Baker" "Coffman" "Eisner" "Garfield Thomas" "Wingfield" 
+	# 	"Thornhill" "Rinehart" "Roche" "Bangust" "Waterman" "Weaver" "Hilbert" "Lamons" "Snyder" "Hemminger" "Bright" "Tills" "Roberts" "McClelland" "Cates" "Gandy" "Earl K Olsen" "Slater" "Oswald" "Ebert" "Neal A Scott" 
+	# 	"Muir" "Sutton" 
+	# 	# Edsall
+	# 	"Edsall" "Jacob Jones" "Hammann" "Robert E Peary" "Pillsbury" "Pope" "Flaherty" "Frederick C Davis" "Albert W Grant" "Herbert C Jones" "Douglas L Howard" "Farquhar" "	JRY Blakely" "Hill" "Fessenden" "Fiske" "Frost" 
+	# 	"Huse" "Inch" "Blair" "Brough" "Chatelaine" "Neunzer" "Poole" "Peterson" "Stewart" "Sturtevant" "Moore" "Keith" "Tomich" "J Richard Ward " "Otterstetter" "Sloat" "Snowden" "Stanton" "Swasey" "Marchand" "Hurst" 
+	# 	"Camp" "Howard D Crow" "Pettit" "Picketts" "Sellstrom" "Harveston" "Joyce" "Kirkpatrick" "Leopold" "Menges" "Mosley" "Newell" "Pride" "Falgout" "Thomas J Gary " "Brister" "Finch" "Kretchmer" "O'Reilly" "Koiner" "Price" 
+	# 	"Strickland" "Forster" "Daniel" "Roy O Hale" "Dale W Peterson" "Martin H Ray" "Ramsden" "Mills" "Rhodes" "Richey" "Savage" "Vance" "Bearss" "Lansing" "Durant" "Calcaterra" "Chambers" "Merrill" "Haverfield" "Swenning" 
+	# 	"Willis" "Janssen" "Wilhoite" "Cockrill" "Stockdale" "Hissem" "Holder" 
+	# 	# Rudderow
+	# 	"Rudderow" "Day" "Chaffee" "Hodges" "Riley" "Leslie LB Knox" "McNulty" "Metivier" "George A Johnson" "Charles J Kimmel" "Daniel A Joy" "Lough" "Thomas F Nickel" "Peiffer" "Tinsman" "DeLong" "Coates" "Eugene E Elmore" 
+	# 	"Holt" "Jobb" "Parle" "Bray"
+	# 	# John C Butler
+	# 	"John C Butler" "O'Flaherty" "Raymond" "Richard W Suesens" "Abercrombie" "Oberrender" "Robert Brazier" "Edwin A Howard" "Jesse Rutherford" "Key" "Gentry" "Traw" "Maurice J Manuel" "Naifeh" "Doyle C Barnes" "Kenneth M Willett" 
+	# 	"Jaccard" "	Lloyd E Acree" "George E Davis" "Mack" "Johnnie Hutchins" "Walton" "Rolf" "Pratt" "Rombach" "McGinty" "Alvin C Cockrell" "French" "Cecil J Doyle" "Thaddeus Parker" "John L Williamson" "Presley" "Williams" 
+	# 	"Richard S Bull" "Richard M Rowell" "Eversole" "Dennis" "Edmonds" "Straus" "La Prade" "Jack Miller" "Stafford" "Walter C Wann" "Samuel B Roberts" "Le Ray Wilson" "Lawrence C Taylor" "Melvin R Nawman" "Oliver Mitchell" 
+	# 	"Tabberer" "Robert F Keller" "Leland E Thomas" "Chester T O'Brien" "Douglas A Munro" "Dufilho" "Haas" "Corbesier" "Conklin" "McCoy Reynolds" "William Seiverling" "Ulvert M Moore" "Kendall C Campbell" "Goss" "Grady" 
+	# 	"Charles E Brannon" "Albert T Harris" "Cross" "Hanna" "Joseph E Connolly" "Gilligan" "Formoe" "Heyliger" "Edward H Allen" "Tweedy" "Howard F Clark" "Silverstein" "Lewis" "Bivin" "Rizzi" "Osberg" "Vandivier"
+	# }
+}

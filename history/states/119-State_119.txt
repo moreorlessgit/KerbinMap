@@ -4,6 +4,7 @@ state={
 
 	history = {
 		owner = ERP
+		add_core_of = ERP
 	}
 
 	provinces={

@@ -1,12 +1,13 @@
 state={
 	id=81
 	name="STATE_81"
-	manpower=100000
-    state_category = large_city
+	manpower=444387
+    state_category = large_town
 	local_supplies = 2
 	resources = {
-        oil = 10
-        chromium = 50
+        oil = 25
+        rubber = 30
+        chromium = 10
 		steel = 10
     }
 	
@@ -14,22 +15,22 @@ state={
         owner = PON
         add_core_of = PON
 		add_core_of = KEP
-		# add_claim_by = STN
+		add_claim_by = STN
         buildings = {
             infrastructure = 1
             industrial_complex = 0
             arms_factory = 0
-            dockyard = 0
-            # 8984 = { #province
-            #     coastal_bunker = 1
-            #     naval_base = 2
-            # }
-            # 5515 = { #province
-            #     naval_base = 1
-            # }
+            dockyard = 1
+            6446 = { #province
+                coastal_bunker = 1
+                naval_base = 2
+            }
+            2829 = { #province
+                naval_base = 1
+            }
         }
-        # victory_points = { 3750 25 } #province then number of VPs - THIS IS NATIONAL CAPITAL
-        # victory_points = { 8984 10 } #east coast bay
+        victory_points = { 6446 5 } #province then number of VPs - THIS IS NATIONAL CAPITAL
+        victory_points = { 2829 15 } #east coast bay
         # victory_points = { 5515 10 } #west coast port town
 	}
 	provinces={
